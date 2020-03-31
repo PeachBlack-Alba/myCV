@@ -1,0 +1,14 @@
+/***FOOTER***/
+
+.footer p {
+  padding-top: 1.5em;
+  font-family: "Khula", sans-serif;
+}
+
+.iconWrapper {
+  align-self: center;
+  margin-right: 5%;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
