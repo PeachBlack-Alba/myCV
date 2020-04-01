@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
+import Landing from "./components/Landing";
 import Footer from "./components/Footer";
 
 import "./App.css";
@@ -12,7 +13,7 @@ function App() {
       <Container className="container">
         <div className="App">
           <Switch>
-            {/* <Route exact path="/" component={Landing} /> */}
+            <Route exact path="/" component={Landing} />
             <Route exact path="/footer" component={Footer} />
           </Switch>
         </div>
