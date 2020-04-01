@@ -1,3 +1,24 @@
+/****GENERAL***/
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-family: var(--fontRegular);
+  font-size: 16px;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: var(--colorBg);
+  color: var(--colorFg);
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
 /***FOOTER***/
 
 .footer p {
@@ -12,3 +33,29 @@
   align-content: center;
   flex-direction: row;
 }
+
+/****COLUMNES***/
+
+/* .home-channel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 25vw;
+  padding-left: 5vw;
+}
+.home-channel:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 5vw;
+  width: 5vw;
+  transform-origin: bottom;
+}
+.home-channel:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 5vw;
+  width: 5vw;
+} */
