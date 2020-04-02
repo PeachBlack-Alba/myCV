@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import { connect } from "react-redux";
 import Footer from "../components/Footer";
 
-export default class Landing extends Component {
+class Landing extends Component {
   render() {
     return (
       <div>
@@ -14,3 +14,4 @@ export default class Landing extends Component {
     );
   }
 }
+export default Landing;
