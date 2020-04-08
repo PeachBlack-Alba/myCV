@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Typing from "react-typing-animation";
+import Typical from "react-typical";
 
 export default function FirstInfo() {
   return (
@@ -16,13 +16,22 @@ export default function FirstInfo() {
             <Col xs={12} sm={10}>
               <Row className="justify-content-center">
                 <Col xs={12} sm={12} md={7}>
-                  <Typing>
-                    <Typing.Delay ms={2000} />
-                    <div className="firstSentence">My name is Alba </div>
-                    <div className="secondSentence">
-                      An I am your new Software developer{" "}
-                    </div>
-                  </Typing>
+                  <h1> Hey, my name is Alba</h1>{" "}
+                  <p>
+                    I'm{" "}
+                    <Typical
+                      loop={Infinity}
+                      wrapper="b"
+                      steps={[
+                        "your new software developer 👩‍💻",
+                        1000,
+                        "a drummer 🥁",
+                        1000,
+                        "a tattoo artist 🔥",
+                        1000
+                      ]}
+                    ></Typical>
+                  </p>
                 </Col>
                 <Col xs={10} sm={12} md={5} className="about">
                   <p>Add text here</p>
