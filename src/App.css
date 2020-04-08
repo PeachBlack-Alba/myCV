@@ -13,8 +13,8 @@ html {
 }
 body {
   margin: 0;
-  background: var(--colorBg);
-  color: var(--colorFg);
+  background: #040028;
+  color: #9896b6;
   font-size: 18px;
   overflow-x: hidden;
 }
@@ -59,3 +59,5 @@ body {
   left: 5vw;
   width: 5vw;
 } */
+
+/*******FIRST SECTION *******/
