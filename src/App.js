@@ -11,15 +11,15 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <Container className="container">
-        <div className="App">
-          <Switch>
-            <Route exact path="/" component={Landing} />
-            <Route exact path="/firstInfo" component={FirstInfo} />
-            <Route exact path="/footer" component={Footer} />
-          </Switch>
-        </div>
-      </Container>
+      {/* <Container className="container"> */}
+      <div className="App">
+        <Switch>
+          <Route exact path="/" component={Landing} />
+          <Route exact path="/firstInfo" component={FirstInfo} />
+          <Route exact path="/footer" component={Footer} />
+        </Switch>
+      </div>
+      {/* </Container> */}
     </BrowserRouter>
   );
 }
