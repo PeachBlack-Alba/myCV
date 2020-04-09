@@ -12,25 +12,25 @@ class Landing extends Component {
         <div className="home-sky">
           <div className="home-channel home-channel--first">
             <h2 className="home-channel__title">
-              <a href="">Courses</a>
+              <a href="">About Me</a>
             </h2>
           </div>
           <div className="home-channel home-channel--second">
-            <h2 class="home-channel__title">
-              <a href="">Posts</a>
+            <h2 className="home-channel__title">
+              <a href="">Projects</a>
             </h2>
           </div>
           <div className="home-channel home-channel--third">
-            <h2 class="home-channel__title">
-              <a href="">Talks</a>
+            <h2 className="home-channel__title">
+              <a href="">SomethingMore?</a>
             </h2>
           </div>
           <div className="home-channel home-channel--fourth">
-            <h2 class="home-channel__title">
-              <a href="">Reading</a>
+            <h2 className="home-channel__title">
+              <a href="">ContactForm?</a>
             </h2>
           </div>
-          <div class="home-logo">
+          <div className="home-logo">
             <img src="" alt="" />
           </div>
         </div>

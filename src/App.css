@@ -1,11 +1,12 @@
 /****GENERAL***/
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:300&display=swap");
 html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   height: 100%;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -94,4 +95,47 @@ body {
   display: flex;
   height: 75vh;
   overflow: hidden;
+}
+.home-grid {
+  height: 25vh;
+}
+.home-channel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 25vw;
+  padding-left: 5vw;
+}
+
+.home-channel:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 5vw;
+  width: 5vw;
+  transform-origin: bottom;
+}
+.home-channel:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 5vw;
+  width: 5vw;
+}
+
+.home-channel__title {
+  font-size: 0.75em;
+  font-weight: normal;
+  color: var(--colorBgSubtle);
+}
+.home-channel__title a {
+  color: inherit;
+  text-decoration: none;
+}
+.home-channel__title a:hover,
+.home-channel__title a:focus {
+  outline: none;
+  color: var(--colorPink);
+  text-decoration: underline;
 }
