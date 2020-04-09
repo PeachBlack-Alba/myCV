@@ -86,3 +86,12 @@ body {
     background-position: 0% 50%;
   }
 }
+
+/*******************************PRUEBAS*************************/
+.home-sky {
+  /* titulos */
+  position: relative;
+  display: flex;
+  height: 75vh;
+  overflow: hidden;
+}
