@@ -1,18 +1,17 @@
 /****GENERAL***/
 
 @font-face {
-  font-family: "8pt";
-  src: url("./media/M\ 8pt.ttf");
+  font-family: "px_sans_nouveaux";
+  src: url("./media/px_sans_nouveaux.ttf");
 }
 
-/* @import url("https://fonts.googleapis.com/css?family=Roboto:300&display=swap"); */
 html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   height: 100%;
-  font-family: "8pt.ttf";
+  font-family: "px_sans_nouveaux";
 }
 
 html {
