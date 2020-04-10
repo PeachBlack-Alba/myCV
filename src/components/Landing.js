@@ -9,6 +9,9 @@ class Landing extends Component {
   render() {
     return (
       <div>
+        <div id="progressBar"></div>
+        <div id="scrollPath"></div>
+
         <div className="home-sky">
           <div className="home-channel home-channel--first">
             <h2 className="home-channel__title">
