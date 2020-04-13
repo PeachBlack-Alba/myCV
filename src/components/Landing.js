@@ -7,17 +7,17 @@ import Footer from "../components/Footer";
 
 class Landing extends Component {
   render() {
-    scrollbar = () => {
-      const progress = document.getElementById("progressBar");
-      const totalHeight = document.body.scrollHeight - window.innerHeight;
-      window.onscroll = function () {
-        const progressHeight = (window.pageYOffset / totalHeight) * 100;
-        progress.style.height = progressHeight + "%";
-      };
-    };
+    // scrollbar = () => {
+    //   const progress = document.getElementById("progressBar");
+    //   const totalHeight = document.body.scrollHeight - window.innerHeight;
+    //   window.onscroll = function () {
+    //     const progressHeight = (window.pageYOffset / totalHeight) * 100;
+    //     progress.style.height = progressHeight + "%";
+    //   };
+    // };
     return (
       <div>
-        <div id="progressBar"> {this.scrollbar()}</div>
+        {/* <div id="progressBar"> {this.scrollbar()}</div> */}
         <div id="scrollPath"></div>
 
         <div className="home-sky">

@@ -12,6 +12,7 @@ body {
   box-sizing: border-box;
   height: 100%;
   font-family: "px_sans_nouveaux";
+  background-color: teal;
 }
 
 html {
@@ -22,7 +23,7 @@ html {
 }
 body {
   margin: 0;
-  background: white;
+  /* background: white; */
   color: black;
   font-size: 18px;
   overflow-x: hidden;
@@ -44,30 +45,86 @@ body {
 }
 
 /****COLUMNES***/
-
-/* .home-channel {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 25vw;
-  padding-left: 5vw;
+@keyframes home-channel--jitter {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0.99);
+  }
 }
-.home-channel:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 5vw;
-  width: 5vw;
-  transform-origin: bottom;
+@keyframes home-channel--glow {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.8;
+  }
 }
-.home-channel:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 5vw;
-  width: 5vw;
-} */
+.home-channel--first:before,
+.home-channel--second:before,
+.home-channel--third:before,
+.home-channel--fourth:before {
+  animation: home-channel--jitter 350ms ease-out infinite alternate;
+}
+.home-channel--first:after,
+.home-channel--second:after,
+.home-channel--third:after,
+.home-channel--fourth:after {
+  animation: home-channel--glow 2500ms ease-in infinite alternate-reverse;
+}
+.home-channel--first {
+  padding-bottom: 20vh;
+}
+.home-channel--first:before {
+  height: 20vh;
+  background: #5a90e1;
+  animation-delay: 50ms;
+}
+.home-channel--first:after {
+  height: 19vh;
+  background: linear-gradient(to top, #481380, transparent);
+  box-shadow: 0 0 2vw #5a90e1;
+}
+.home-channel--second {
+  padding-bottom: 35vh;
+}
+.home-channel--second:before {
+  height: 35vh;
+  background: var(--colorPurple);
+  animation-delay: 100ms;
+}
+.home-channel--second:after {
+  height: 34vh;
+  background: linear-gradient(to top, var(--colorBlue), transparent);
+  box-shadow: 0 0 2vw var(--colorPurple);
+}
+.home-channel--third {
+  padding-bottom: 30vh;
+}
+.home-channel--third:before {
+  height: 30vh;
+  background: var(--colorPink);
+  animation-delay: 150ms;
+}
+.home-channel--third:after {
+  height: 29vh;
+  background: linear-gradient(to top, var(--colorBlue), transparent);
+  box-shadow: 0 0 2vw var(--colorPink);
+}
+.home-channel--fourth {
+  padding-bottom: 15vh;
+}
+.home-channel--fourth:before {
+  height: 15vh;
+  background: var(--colorTurquoise);
+  animation-delay: 200ms;
+}
+.home-channel--fourth:after {
+  height: 14vh;
+  background: linear-gradient(to top, var(--colorPink), transparent);
+  box-shadow: 0 0 2vw var(--colorTurquoise);
+}
 
 /*******FIRST SECTION *******/
 
