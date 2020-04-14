@@ -46,7 +46,7 @@ class Landing extends Component {
           </div>
         </div>
         <div className="home-grid">
-          {/* <div class="home-grid">
+          <div class="home-grid">
             <div class="grid" aria-hidden="true">
               <div class="grid__horizon"></div>
               <div class="grid__deck">
@@ -90,7 +90,7 @@ class Landing extends Component {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
 
         {/* <FirstInfo></FirstInfo>
