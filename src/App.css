@@ -1,4 +1,4 @@
-/****GENERAL***/
+/***********************GENERAL**********************/
 
 @font-face {
   font-family: "px_sans_nouveaux";
@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
   height: 100%;
   font-family: "px_sans_nouveaux";
-  background-color: teal;
+  background-color: black;
 }
 
 html {
@@ -24,12 +24,12 @@ html {
 body {
   margin: 0;
   /* background: white; */
-  color: black;
+  color: #56d7e4;
   font-size: 18px;
   overflow-x: hidden;
 }
 
-/***FOOTER***/
+/*************************FOOTER**********************/
 
 .footer p {
   padding-top: 1.5em;
@@ -44,13 +44,13 @@ body {
   flex-direction: row;
 }
 
-/****COLUMNES***/
+/**************************COLUMNAS***************/
 @keyframes home-channel--jitter {
   0% {
     transform: scaleY(1);
   }
   100% {
-    transform: scaleY(0.99);
+    transform: scaleY(0.88);
   }
 }
 @keyframes home-channel--glow {
@@ -84,46 +84,46 @@ body {
 .home-channel--first:after {
   height: 19vh;
   background: linear-gradient(to top, #481380, transparent);
-  box-shadow: 0 0 2vw #5a90e1;
+  box-shadow: 0 0 4vw #5a90e1;
 }
 .home-channel--second {
   padding-bottom: 35vh;
 }
 .home-channel--second:before {
   height: 35vh;
-  background: var(--colorPurple);
+  background: #f975f7;
   animation-delay: 100ms;
 }
 .home-channel--second:after {
   height: 34vh;
-  background: linear-gradient(to top, var(--colorBlue), transparent);
-  box-shadow: 0 0 2vw var(--colorPurple);
+  background: linear-gradient(to top, #f008b7, transparent);
+  box-shadow: 0 0 4vw #f975f7;
 }
 .home-channel--third {
   padding-bottom: 30vh;
 }
 .home-channel--third:before {
   height: 30vh;
-  background: var(--colorPink);
+  background: #8f71ff;
   animation-delay: 150ms;
 }
 .home-channel--third:after {
   height: 29vh;
-  background: linear-gradient(to top, var(--colorBlue), transparent);
-  box-shadow: 0 0 2vw var(--colorPink);
+  background: linear-gradient(to top, #d195f9, transparent);
+  box-shadow: 0 0 4vw #8f71ff;
 }
 .home-channel--fourth {
   padding-bottom: 15vh;
 }
 .home-channel--fourth:before {
   height: 15vh;
-  background: var(--colorTurquoise);
+  background: #00edbd;
   animation-delay: 200ms;
 }
 .home-channel--fourth:after {
   height: 14vh;
-  background: linear-gradient(to top, var(--colorPink), transparent);
-  box-shadow: 0 0 2vw var(--colorTurquoise);
+  background: linear-gradient(to top, #f975f7, transparent);
+  box-shadow: 0 0 4vw #00edbd;
 }
 
 /*******FIRST SECTION *******/
