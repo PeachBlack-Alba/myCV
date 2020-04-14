@@ -65,13 +65,13 @@ body {
 .home-channel--second:before,
 .home-channel--third:before,
 .home-channel--fourth:before {
-  animation: home-channel--jitter 350ms ease-out infinite alternate;
+  animation: home-channel--jitter 400ms ease-out infinite alternate;
 }
 .home-channel--first:after,
 .home-channel--second:after,
 .home-channel--third:after,
 .home-channel--fourth:after {
-  animation: home-channel--glow 2500ms ease-in infinite alternate-reverse;
+  animation: home-channel--glow 1000ms ease-in infinite alternate-reverse;
 }
 .home-channel--first {
   padding-bottom: 20vh;
@@ -84,7 +84,7 @@ body {
 .home-channel--first:after {
   height: 19vh;
   background: linear-gradient(to top, #481380, transparent);
-  box-shadow: 0 0 4vw #5a90e1;
+  box-shadow: 0 0 10vw #5a90e1;
 }
 .home-channel--second {
   padding-bottom: 35vh;
@@ -97,7 +97,7 @@ body {
 .home-channel--second:after {
   height: 34vh;
   background: linear-gradient(to top, #f008b7, transparent);
-  box-shadow: 0 0 4vw #f975f7;
+  box-shadow: 0 0 10vw #f975f7;
 }
 .home-channel--third {
   padding-bottom: 30vh;
@@ -110,7 +110,7 @@ body {
 .home-channel--third:after {
   height: 29vh;
   background: linear-gradient(to top, #d195f9, transparent);
-  box-shadow: 0 0 4vw #8f71ff;
+  box-shadow: 0 0 10vw #8f71ff;
 }
 .home-channel--fourth {
   padding-bottom: 15vh;
@@ -123,7 +123,7 @@ body {
 .home-channel--fourth:after {
   height: 14vh;
   background: linear-gradient(to top, #f975f7, transparent);
-  box-shadow: 0 0 4vw #00edbd;
+  box-shadow: 0 0 10vw #00edbd;
 }
 
 /*******FIRST SECTION *******/
