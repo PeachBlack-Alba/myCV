@@ -340,7 +340,7 @@ body {
 
 .grid__grid__line {
   position: absolute;
-  -webkit-backface-visibility: hidden;
+  --webkit-backface-visibility: hidden;
 }
 .grid__grid--vertical .grid__grid__line {
   top: -10vh;
@@ -358,7 +358,7 @@ body {
     transparent
   );
 }
-
+/*repasar*/
 .grid__grid--vertical .grid__grid__line:nth-child(1) {
   left: 10%;
 }
