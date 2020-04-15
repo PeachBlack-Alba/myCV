@@ -30,18 +30,48 @@ body {
 }
 
 /*************************FOOTER**********************/
-
-.footer p {
-  padding-top: 1.5em;
-  font-family: "Khula", sans-serif;
+.navBarWrapper {
+  height: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  border-top: 2px solid rgb(255, 255, 255);
+  padding: 3px;
 }
 
-.iconWrapper {
-  align-self: center;
-  margin-right: 5%;
+.startHomeWrapper {
   display: flex;
-  align-content: center;
   flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.startButton {
+  display: flex;
+  cursor: default;
+  user-select: none;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  color: black;
+  min-width: 95px;
+  width: 5.3vw;
+  height: 100%;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: right;
+  padding: 0.2vh 0.2vh 0.2vh 4px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 /**************************COLUMNAS***************/

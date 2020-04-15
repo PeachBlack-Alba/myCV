@@ -95,8 +95,10 @@ class Landing extends Component {
           </div>
         </div>
 
-        {/* <FirstInfo></FirstInfo>
-        <Footer></Footer> */}
+        {/* <FirstInfo></FirstInfo> */}
+        <React.Fragment>
+          <Footer></Footer>
+        </React.Fragment>
       </div>
     );
   }

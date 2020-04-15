@@ -5,6 +5,7 @@ export default function Footer() {
     <div className="navBarWrapper">
       <div className="startHomeWrapper">
         <div className="startButton">
+          <img></img>
           <div>Start</div>
         </div>
         <div className="homeButton">
