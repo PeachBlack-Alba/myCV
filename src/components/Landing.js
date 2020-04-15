@@ -6,16 +6,16 @@ import FirstInfo from "./FirstInfo";
 import Footer from "../components/Footer";
 
 class Landing extends Component {
-  scrollbar = () => {
-    const progress = document.getElementById("progressBar");
-    const totalHeight = document.body.scrollHeight - window.innerHeight;
-    window.onscroll = function () {
-      const progressHeight = (window.pageYOffset / totalHeight) * 100;
-      progress.style.height = progressHeight + "%";
-    };
-  };
+  // scrollbar = () => {
+  //   const progress = document.getElementById("progressBar");
+  //   const totalHeight = document.body.scrollHeight - window.innerHeight;
+  //   window.onscroll = function () {
+  //     const progressHeight = (window.pageYOffset / totalHeight) * 100;
+  //     progress.style.height = progressHeight + "%";
+  //   };
+  // };
   render() {
-    this.scrollbar();
+    // this.scrollbar();
 
     return (
       <div>
