@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
   height: 100%;
   font-family: "px_sans_nouveaux";
-  background-color: black;
+  /* background-color: black; */
 }
 
 html {
@@ -74,6 +74,13 @@ body {
   border-bottom: 2px solid black;
 }
 
+.startButton img {
+  width: 1.8rem;
+  margin-right: 4px;
+}
+.start {
+  display: block;
+}
 /**************************COLUMNAS***************/
 @keyframes home-channel--jitter {
   0% {

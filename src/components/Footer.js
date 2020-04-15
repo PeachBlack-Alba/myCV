@@ -1,5 +1,6 @@
 import React from "react";
-import windowsflag from "../media/Computer icons/windowsflag.ico";
+import windowsflag from "../media/Computer_icons/windowsflag.ico";
+import homebutton from "../media/Computer_icons";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
       <div className="startHomeWrapper">
         <div className="startButton">
           <img src={windowsflag} alt="windowsflag" />
-          <div>Start</div>
+          <div className="start">Start</div>
         </div>
         <div className="homeButton">
           <div>Home</div>
