@@ -540,3 +540,55 @@ body {
   margin-top: -1px;
   opacity: 1;
 }
+/*************************REDONDAS EN MOVIMIENTO*******************/
+
+.grid__dots__dot {
+  position: absolute;
+  background: linear-gradient(to bottom, white transparent);
+  width: calc(12px / 4);
+  height: 25px;
+  top: 100%;
+  transform: translateX(150%);
+  border-radius: 15px;
+  box-shadow: 0 0 3px #fff;
+  --webkit-backface-visibility: hidden;
+}
+
+.grid__dots__dot:nth-child(1) {
+  left: 10%;
+  animation: grid__dots__dot--travel 1.75s 5s infinite;
+}
+.grid__dots__dot:nth-child(2) {
+  left: 20%;
+  animation: grid__dots__dot--travel 5s 10s infinite;
+}
+.grid__dots__dot:nth-child(3) {
+  left: 30%;
+  animation: grid__dots__dot--travel 3.5s 7s infinite;
+}
+.grid__dots__dot:nth-child(4) {
+  left: 50%;
+  animation: grid__dots__dot--travel 7.5s 15s infinite;
+}
+.grid__dots__dot:nth-child(5) {
+  left: 60%;
+  animation: grid__dots__dot--travel 3s 6s infinite;
+}
+.grid__dots__dot:nth-child(6) {
+  left: 80%;
+  animation: grid__dots__dot--travel 1.5s 5s infinite;
+}
+.grid__dots__dot:nth-child(7) {
+  left: 90%;
+  animation: grid__dots__dot--travel 2s 4s infinite;
+}
+@keyframes grid__dots__dot--travel {
+  0% {
+    top: 100%;
+    opacity: 2;
+  }
+  100% {
+    top: 0%;
+    opacity: 0;
+  }
+}
