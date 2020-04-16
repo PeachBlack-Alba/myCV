@@ -356,7 +356,6 @@ body {
 /*******************************LINEA HORIZONTAL*********/
 .home-grid {
   height: 25vh;
-  /* background-image: url(./media/lineasrosas.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
 }
