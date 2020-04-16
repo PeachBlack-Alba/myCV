@@ -488,7 +488,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: var(--gridLineHorizontalHeight);
+  height: 6px;
   z-index: 2;
   background: linear-gradient(
     to bottom,
@@ -592,3 +592,5 @@ body {
     opacity: 0;
   }
 }
+
+/***********************LINEAS HORIZONTALES*******************/
