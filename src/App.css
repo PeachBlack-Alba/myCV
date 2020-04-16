@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
   height: 100%;
   font-family: "px_sans_nouveaux";
-  /* background-color: black; */
+  background-color: black;
 }
 
 html {
@@ -40,9 +40,10 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  z-index: -1;
+  z-index: 5;
   border-top: 2px solid rgb(255, 255, 255);
   padding: 3px;
+  background-color: #bdbebd;
 }
 
 .startHomeWrapper {
@@ -61,7 +62,7 @@ body {
   align-items: center;
   color: black;
   min-width: 95px;
-  width: 5.3vw;
+  width: 120px;
   height: 100%;
   box-sizing: border-box;
   font-weight: bold;
@@ -80,6 +81,63 @@ body {
 }
 .start {
   display: block;
+  font-size: 15px;
+}
+
+.homeButton {
+  display: flex;
+  cursor: default;
+  user-select: none;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-left: 5px;
+  height: 100%;
+  width: 120px;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.homeButton img {
+  width: 2rem;
+  margin: 0px 0.4vw;
+}
+.home {
+  margin-top: -2px;
+  font-size: 15px;
+  color: black;
+}
+
+.soundTimeWrapper {
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 0.3vw;
+  padding: 0.2vw;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.soundTimeWrapper img {
+  width: 1.7rem;
+  margin: 2px;
+}
+.watch {
+  display: block;
+  cursor: default;
+  width: 90px;
+  font-size: 10px;
+  text-align: center;
+  user-select: text;
+  color: black;
 }
 /**************************COLUMNAS***************/
 @keyframes home-channel--jitter {
@@ -102,7 +160,7 @@ body {
 .home-channel--second:before,
 .home-channel--third:before,
 .home-channel--fourth:before {
-  animation: home-channel--jitter 400ms ease-out infinite alternate;
+  animation: home-channel--jitter 700ms ease-out infinite alternate;
 }
 .home-channel--first:after,
 .home-channel--second:after,

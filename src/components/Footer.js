@@ -1,6 +1,7 @@
 import React from "react";
 import windowsflag from "../media/Computer_icons/windowsflag.ico";
-import homebutton from "../media/Computer_icons";
+import homebutton from "../media/Computer_icons/carpeta.ico";
+import nosound from "../media/Computer_icons/nosound.png";
 
 export default function Footer() {
   return (
@@ -11,11 +12,13 @@ export default function Footer() {
           <div className="start">Start</div>
         </div>
         <div className="homeButton">
-          <div>Home</div>
+          <img src={homebutton} alt="carpetaicon" />
+
+          <div className="home">Home</div>
         </div>
       </div>
       <div className="soundTimeWrapper">
-        <img></img>
+        <img src={nosound} alt="nosound" />
         <div className="watch">14:50</div>
       </div>
     </div>
