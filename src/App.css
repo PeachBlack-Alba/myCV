@@ -355,7 +355,7 @@ body {
 
 /*******************************LINEA HORIZONTAL*********/
 .home-grid {
-  height: 25vh;
+  height: 20vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -381,7 +381,7 @@ body {
     rgba(255, 255, 255, 0.7) 80%,
     rgba(255, 255, 255, 0.2)
   );
-  box-shadow: 0 -8px 30px rgba(255, 0, 214, 0.7);
+  box-shadow: 0 -8px 30px rgba(255, 0, 214, 1);
 }
 /******************LINEAS ************************/
 .grid__deck {
@@ -396,7 +396,6 @@ body {
   left: 0;
   height: 80%;
   width: 100%;
-  background: radial-gradient(transparent 50%, black 70%);
 }
 
 .grid__grid-plane {
@@ -452,7 +451,6 @@ body {
     transparent
   );
 }
-/*repasar*/
 .grid__grid--vertical .grid__grid__line:nth-child(1) {
   left: 10%;
 }
@@ -484,6 +482,9 @@ body {
   left: 100%;
   margin-left: -1px;
 }
+
+/***********************LINEAS HORIZONTALES*******************/
+
 .grid__grid--horizontal .grid__grid__line {
   top: 0;
   left: 0;
@@ -544,14 +545,14 @@ body {
 
 .grid__dots__dot {
   position: absolute;
-  background: linear-gradient(to bottom, white transparent);
+  background: #c829e0;
   width: calc(12px / 4);
   height: 25px;
   top: 100%;
   transform: translateX(150%);
-  border-radius: 15px;
-  box-shadow: 0 0 3px #fff;
-  --webkit-backface-visibility: hidden;
+  border-radius: 40px;
+  box-shadow: 0 0 10px #c829e0;
+  /* --webkit-backface-visibility: hidden; */
 }
 
 .grid__dots__dot:nth-child(1) {
@@ -560,15 +561,15 @@ body {
 }
 .grid__dots__dot:nth-child(2) {
   left: 20%;
-  animation: grid__dots__dot--travel 5s 10s infinite;
+  animation: grid__dots__dot--travel 4s 6s infinite;
 }
 .grid__dots__dot:nth-child(3) {
   left: 30%;
-  animation: grid__dots__dot--travel 3.5s 7s infinite;
+  animation: grid__dots__dot--travel 3s 5s infinite;
 }
 .grid__dots__dot:nth-child(4) {
   left: 50%;
-  animation: grid__dots__dot--travel 7.5s 15s infinite;
+  animation: grid__dots__dot--travel 1.5s 5s infinite;
 }
 .grid__dots__dot:nth-child(5) {
   left: 60%;
@@ -592,5 +593,3 @@ body {
     opacity: 0;
   }
 }
-
-/***********************LINEAS HORIZONTALES*******************/
