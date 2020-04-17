@@ -75,6 +75,9 @@ class Landing extends Component {
                       <div class="grid__dots__dot"></div>
                       <div class="grid__dots__dot"></div>
                       <div class="grid__dots__dot"></div>
+                      <div class="grid__dots__dot"></div>
+                      <div class="grid__dots__dot"></div>
+                      <div class="grid__dots__dot"></div>
                     </div>
                     <div class="grid__grid--horizontal">
                       <div class="grid__grid__line"></div>

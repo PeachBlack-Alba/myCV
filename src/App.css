@@ -549,7 +549,7 @@ body {
   width: calc(12px / 4);
   height: 25px;
   top: 100%;
-  transform: translateX(150%);
+  transform: translateX(100%);
   border-radius: 40px;
   box-shadow: 0 0 10px #c829e0;
   /* --webkit-backface-visibility: hidden; */
@@ -557,29 +557,37 @@ body {
 
 .grid__dots__dot:nth-child(1) {
   left: 10%;
-  animation: grid__dots__dot--travel 1.75s 5s infinite;
+  animation: grid__dots__dot--travel 1.75s 1s infinite;
 }
 .grid__dots__dot:nth-child(2) {
   left: 20%;
-  animation: grid__dots__dot--travel 4s 6s infinite;
+  animation: grid__dots__dot--travel 1.7s 1s infinite;
 }
 .grid__dots__dot:nth-child(3) {
   left: 30%;
-  animation: grid__dots__dot--travel 3s 5s infinite;
+  animation: grid__dots__dot--travel 1.2s 1s infinite;
 }
 .grid__dots__dot:nth-child(4) {
-  left: 50%;
-  animation: grid__dots__dot--travel 1.5s 5s infinite;
+  left: 40%;
+  animation: grid__dots__dot--travel 1.2s 1s infinite;
 }
 .grid__dots__dot:nth-child(5) {
-  left: 60%;
-  animation: grid__dots__dot--travel 3s 6s infinite;
+  left: 50%;
+  animation: grid__dots__dot--travel 1.5s 1s infinite;
 }
 .grid__dots__dot:nth-child(6) {
+  left: 60%;
+  animation: grid__dots__dot--travel 0.7s 1s infinite;
+}
+.grid__dots__dot:nth-child(7) {
+  left: 70%;
+  animation: grid__dots__dot--travel 1.2s 1s infinite;
+}
+.grid__dots__dot:nth-child(8) {
   left: 80%;
   animation: grid__dots__dot--travel 1.5s 5s infinite;
 }
-.grid__dots__dot:nth-child(7) {
+.grid__dots__dot:nth-child(9) {
   left: 90%;
   animation: grid__dots__dot--travel 2s 4s infinite;
 }
