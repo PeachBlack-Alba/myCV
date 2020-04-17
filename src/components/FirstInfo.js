@@ -17,11 +17,11 @@ export default function FirstInfo() {
               "a drummer 🥁",
               1000,
               "a tattoo artist 🔥",
-              1000
+              1000,
             ]}
           ></Typical>
         </p>
-        <p>Add text here</p>
+        <p></p>
       </div>
     </div>
   );

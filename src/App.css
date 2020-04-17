@@ -223,7 +223,7 @@ body {
 
 /*******FIRST SECTION *******/
 
-.aboutMe {
+/* .aboutMe {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   animation: gradient 20s ease infinite;
   background-size: 400% 400%;
@@ -243,6 +243,9 @@ body {
   100% {
     background-position: 0% 50%;
   }
+} */
+.aboutMe {
+  color: #00edbd;
 }
 
 /****************************SCROLLBAR***************************/
@@ -306,7 +309,7 @@ body {
   /* titulos */
   position: relative;
   display: flex;
-  height: 75vh;
+  height: 65vh;
   overflow: hidden;
 }
 .home-grid {

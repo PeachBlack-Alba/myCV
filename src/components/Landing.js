@@ -19,6 +19,7 @@ class Landing extends Component {
 
     return (
       <div>
+        <FirstInfo></FirstInfo>
         <div id="progressBar"></div>
         <div id="scrollPath"></div>
 
