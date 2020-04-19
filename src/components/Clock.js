@@ -4,6 +4,6 @@ export default class Clock extends Component {
   render() {
     const time = new Date().toLocaleString();
 
-    return <div></div>;
+    return <div>{time}</div>;
   }
 }

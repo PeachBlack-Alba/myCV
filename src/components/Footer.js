@@ -2,6 +2,7 @@ import React from "react";
 import windowsflag from "../media/Computer_icons/windowsflag.ico";
 import homebutton from "../media/Computer_icons/carpeta.ico";
 import nosound from "../media/Computer_icons/nosound.png";
+import Clock from "../components/Clock";
 
 export default function Footer() {
   return (
@@ -19,7 +20,8 @@ export default function Footer() {
       </div>
       <div className="soundTimeWrapper">
         <img src={nosound} alt="nosound" />
-        <div className="watch">14:50</div>
+        {/* <div className="watch">14:50</div> */}
+        <Clock></Clock>
       </div>
     </div>
   );

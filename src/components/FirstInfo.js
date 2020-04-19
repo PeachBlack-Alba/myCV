@@ -12,7 +12,7 @@ export default function FirstInfo() {
             loop={Infinity}
             wrapper="b"
             steps={[
-              "your new software developer 👩‍💻",
+              "a software developer 👩‍💻",
               1000,
               "a drummer 🥁",
               1000,
