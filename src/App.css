@@ -134,14 +134,15 @@ body {
   user-select: text;
   text-align: center;
 }
-.watch {
+/* .watch {
   display: block;
   cursor: default;
   width: 90px;
   text-align: center;
   user-select: text;
+  font-size: 10px;
   color: black;
-}
+} */
 /**************************COLUMNAS***************/
 @keyframes home-channel--jitter {
   0% {
