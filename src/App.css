@@ -129,12 +129,15 @@ body {
 .soundTimeWrapper img {
   width: 1.7rem;
   margin: 2px;
+  color: black;
+  font-size: 10px;
+  user-select: text;
+  text-align: center;
 }
 .watch {
   display: block;
   cursor: default;
   width: 90px;
-  font-size: 10px;
   text-align: center;
   user-select: text;
   color: black;
