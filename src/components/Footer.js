@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="soundTimeWrapper">
         <img src={nosound} alt="nosound" />
         {/* <div className="watch">14:50</div> */}
-        <Clock></Clock>
+        <Clock className="watch"></Clock>
       </div>
     </div>
   );

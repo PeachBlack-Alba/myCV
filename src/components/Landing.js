@@ -36,12 +36,12 @@ class Landing extends Component {
           </div>
           <div className="home-channel home-channel--third">
             <h2 className="home-channel__title">
-              <a href="">SomethingMore?</a>
+              <a href="">Interests</a>
             </h2>
           </div>
           <div className="home-channel home-channel--fourth">
             <h2 className="home-channel__title">
-              <a href="">ContactForm?</a>
+              <a href="">Contact</a>
             </h2>
           </div>
           <div className="home-logo">
