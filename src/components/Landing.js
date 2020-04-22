@@ -20,8 +20,8 @@ class Landing extends Component {
     return (
       <div>
         <FirstInfo></FirstInfo>
-        {/* <div id="progressBar"></div>
-        <div id="scrollPath"></div> */}
+        <div id="progressBar"></div>
+        <div id="scrollPath"></div>
 
         <div className="home-sky">
           <div className="home-channel home-channel--first">
@@ -99,7 +99,6 @@ class Landing extends Component {
           </div>
         </div>
 
-        {/* <FirstInfo></FirstInfo> */}
         <React.Fragment>
           <Footer></Footer>
         </React.Fragment>
