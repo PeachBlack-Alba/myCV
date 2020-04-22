@@ -135,7 +135,7 @@ body {
   margin: 2px;
 }
 
-/**************************COLUMNAS***************/
+/**************************COLUMNAS************************/
 @keyframes home-channel--jitter {
   0% {
     transform: scaleY(1);
@@ -224,7 +224,7 @@ body {
 }
 
 /****************************SCROLLBAR***************************/
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0;
 }
 
@@ -277,9 +277,9 @@ body {
   height: 100%;
   background: linear-gradient(to top, #008aff, #00ffe7);
   filter: blur(30px);
-}
+} */
 
-/*******************************PRUEBAS*************************/
+/*******************************TÍTULOS*************************/
 .home-sky {
   /* titulos */
   position: relative;
@@ -331,7 +331,7 @@ body {
   text-decoration: underline;
 }
 
-/*******************************LINEA HORIZONTAL*********/
+/*******************************LINEA HORIZONTAL***************************/
 .home-grid {
   height: 20vh;
   background-repeat: no-repeat;
