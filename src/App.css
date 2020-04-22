@@ -125,24 +125,16 @@ body {
   border-left: 2px solid grey;
   border-right: 2px solid white;
   border-bottom: 2px solid white;
+  color: black;
+  font-size: 15px;
+  user-select: text;
+  text-align: center;
 }
 .soundTimeWrapper img {
   width: 1.7rem;
   margin: 2px;
-  color: black;
-  font-size: 10px;
-  user-select: text;
-  text-align: center;
 }
-/* .watch {
-  display: block;
-  cursor: default;
-  width: 90px;
-  text-align: center;
-  user-select: text;
-  font-size: 10px;
-  color: black;
-} */
+
 /**************************COLUMNAS***************/
 @keyframes home-channel--jitter {
   0% {
@@ -227,27 +219,6 @@ body {
 
 /*******FIRST SECTION *******/
 
-/* .aboutMe {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  animation: gradient 20s ease infinite;
-  background-size: 400% 400%;
-
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-} */
 .aboutMe {
   color: #00edbd;
 }
@@ -271,7 +242,7 @@ body {
   top: 0;
   right: 0;
   width: 10px;
-  /* height: 100%; */ /*need to add javascript to show*/
+  height: 100%;
   background: linear-gradient(to top, #008aff, #00ffe7);
   animation: animate 5s linear infinite;
 }
