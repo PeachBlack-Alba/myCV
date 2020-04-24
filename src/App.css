@@ -587,22 +587,22 @@ body {
 
 /**************************************WINDOWS********************************************/
 
-/* .window{
+.window {
   position: absolute;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    padding-bottom: 3px;
-    z-index: var(--z-foreground-focused);
-    height: var(--terminal-height-px);
-    width: var(--terminal-width-px);
-    top: var(--initial-top-offset-vh);
-    right: var(--initial-right-offset-px);
-    min-width: var(--terminal-min-width-px);
-    --maximized-program-width-vw: 70vw;
-    --maximized-program-height: calc(100% - var(--navbar-height));
-    --maximized-program-padding-bottom-px: 150px;
-    font-family: Inconsolata, monospace;
-    --maximized-program-top-offset-vh: 3vh !important;
-    --maximized-program-side-offset-vw: 15vw !important;
-} */
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-bottom: 3px;
+  z-index: var(--z-foreground-focused);
+  height: var(--terminal-height-px);
+  width: var(--terminal-width-px);
+  top: var(--initial-top-offset-vh);
+  right: var(--initial-right-offset-px);
+  min-width: var(--terminal-min-width-px);
+  --maximized-program-width-vw: 70vw;
+  --maximized-program-height: calc(100% - var(--navbar-height));
+  --maximized-program-padding-bottom-px: 150px;
+  font-family: Inconsolata, monospace;
+  --maximized-program-top-offset-vh: 3vh !important;
+  --maximized-program-side-offset-vw: 15vw !important;
+}
