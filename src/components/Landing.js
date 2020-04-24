@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import { connect } from "react-redux";
 import FirstInfo from "./FirstInfo";
 import Footer from "../components/Footer";
+import AboutMe from "../components/AboutMe";
 
 class Landing extends Component {
   // // scrollbar = () => {
@@ -20,14 +21,14 @@ class Landing extends Component {
     return (
       <div>
         <FirstInfo></FirstInfo>
-        <div id="progressBar"></div>
-        <div id="scrollPath"></div>
+        {/* <div id="progressBar"></div>
+        <div id="scrollPath"></div> */}
 
         <div className="home-sky">
           <div className="home-channel home-channel--first">
-            <h2 className="home-channel__title">
-              <a href="">About Me</a>
-            </h2>
+            <Link to="/AboutMe" className="home-channel__title">
+              About Me
+            </Link>
           </div>
           <div className="home-channel home-channel--second">
             <h2 className="home-channel__title">
