@@ -4,7 +4,7 @@ import Typical from "react-typical";
 export default function FirstInfo() {
   return (
     <div>
-      <div className="aboutMe">
+      <div className="firstInfo">
         <h1> Hey, my name is Alba</h1>{" "}
         <p>
           I'm{" "}
