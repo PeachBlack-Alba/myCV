@@ -29,6 +29,17 @@ body {
   overflow-x: hidden;
 }
 
+/*******FIRST SECTION ABOUT ME *******/
+
+.aboutMe {
+  color: #00edbd;
+  text-align: center;
+}
+
+.aboutMe h1 {
+  font-size: 100%;
+}
+
 /*************************FOOTER**********************/
 .navBarWrapper {
   height: 40px;
@@ -37,8 +48,8 @@ body {
   flex-direction: row;
   -webkit-box-pack: justify;
   justify-content: space-between;
-  position: absolute;
-  /* bottom: 0; */
+  position: fixed;
+  bottom: 0px;
   width: 100%;
   z-index: 5;
   border-top: 2px solid rgb(255, 255, 255);
@@ -215,12 +226,6 @@ body {
   height: 14vh;
   background: linear-gradient(to top, #f975f7, transparent);
   box-shadow: 0 0 10vw #00edbd;
-}
-
-/*******FIRST SECTION *******/
-
-.aboutMe {
-  color: #00edbd;
 }
 
 /****************************SCROLLBAR***************************/
@@ -582,7 +587,7 @@ body {
 
 /**************************************WINDOWS********************************************/
 
-.window{
+/* .window{
   position: absolute;
     display: flex;
     flex-direction: column;
@@ -600,5 +605,4 @@ body {
     font-family: Inconsolata, monospace;
     --maximized-program-top-offset-vh: 3vh !important;
     --maximized-program-side-offset-vw: 15vw !important;
-}
-}
+} */

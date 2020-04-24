@@ -3,8 +3,8 @@ import Typical from "react-typical";
 
 export default function FirstInfo() {
   return (
-    <div className="aboutMe">
-      <div id="about" className="innerContainer infoFlex con2">
+    <div>
+      <div className="aboutMe">
         <h1> Hey, my name is Alba</h1>{" "}
         <p>
           I'm{" "}
@@ -21,7 +21,6 @@ export default function FirstInfo() {
             ]}
           ></Typical>
         </p>
-        <p></p>
       </div>
     </div>
   );
